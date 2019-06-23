@@ -1,0 +1,124 @@
+/* 重置样式 */
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+input{
+    /* 去掉input框点击时的边框 */
+    outline: none;
+}
+
+
+.p1{
+    /* 注意内边距是加到盒子里面的，可能会有计算问题 */
+    width: 160px;
+    height: 50px;
+    /* 既是块元素，又能在一行显示 */
+    /* display: inline-block; */
+    display: none;
+    display: block;
+    padding: 0 20px;
+    text-align: center;
+    border: 1px solid red;
+    margin-top: 15px;
+}
+.p1 span{
+    color:blue;
+}
+.link{
+    display: block;/*将行内元素变为块级元素*/
+    width:100px;
+    height: 100px;
+    border: 2px solid red;
+}
+/* 师大头部 */
+.header-container{
+    background-color: #eee; 
+}
+.header{
+    height: 100px;
+    width: 1100px;
+    margin: 30px auto 0;
+    border-top: 5px solid blue;
+    border-bottom: 1px solid red;
+    /* background-color: red; */
+}
+.header img{
+    margin-top:10px;
+}
+.right{
+    display: inline-block;
+    margin-left: 450px;
+}
+.right input{
+    width: 300px;
+    height: 30px;
+}
+
+
+
+/* 师大导航 */
+.nav{
+    font-size: 0;
+    width: 1100px;
+    /* 使块级元素水平居中 */
+    margin: 0 auto;
+}
+.nav>li{ /*子选择器*/
+    font-size: 16px;
+    display: inline-block;
+    width: 110px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: top;/*垂直对齐方式*/
+}
+.nav>li:hover{
+    background: blue;
+}
+/* a标签的字体颜色只能加给a标签，不会继承父元素的 */
+/* :hover也是选择器，后面可以继续写选择器，构成后代选择器 */
+.nav>li:hover >a{
+    color: #fff;
+}
+.nav>li:hover .hide{
+    display: block;
+}
+/*  */
+.hide{
+    background-color: blue;
+    display: none;
+}
+.hide a{
+    color: #fff;
+}
+.hide li:hover{
+    background-color: lightblue;
+}
+
+
+/* 师大底部 */
+.footer{
+    font-size: 0;
+    height: 300px;
+    background: #ccc;
+}
+.footer ul{
+    font-size: 16px;
+    display: inline-block;
+    width: 150px;
+    margin-left: 30px;
+}
+.footer ul:first-child{
+    margin-left: 0;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}

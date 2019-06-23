@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>任务02</title>
+</head>
+<body>
+	<form action="https://a.d5h5.com/post-test" method="post">
+		<table width="500px" height="200px" border="1px" bordercolor="black" cellpadding="5" cellspacing="0"  >
+			<tr bgcolor=#E7E7E>
+				<td colspan="2" align="center">用户注册</td>
+			</tr>
+			<tr>
+				<td>用户名：</td>
+				<td>
+					<input type="text" name="name"/>
+				</td>
+			</tr>
+			<tr>
+				<td>密码：</td>
+				<td>
+					<input type="password" name="pass"/>
+				</td>
+			</tr>
+			<tr>
+				<td>确认密码：</td>
+				<td>
+					<input type="password" name="pass"/>
+				</td>
+			</tr>
+			<tr>
+				<td>性别：</td>
+				<td>
+					<input type="radio" value="male" name="sex" checked/>男
+					<input type="radio" value="famale" name="sex"/>女
+				</td>
+			</tr>
+			<tr>
+				<td>生日：</td>
+				<td>
+					<select>
+						<option value="公历" selected>公历</option>
+						<option value="农历">农历</option>
+					</select>
+					<select>
+						<option value="年" selected>年</option>
+						<option value="1999">1999</option>
+						<option value="2000">2000</option>
+						<option value="2001">2001</option>
+					</select>
+					<select>
+						<option value="月" selected>月</option>
+						<option value="Jan">一月</option>
+						<option value="Feb">二月</option>
+						<option value="Mar">三月</option>
+					</select>
+					<select>
+						<option value="日" selected>日</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>籍贯：</td>
+				<td>
+					<select name="jiguan">
+						<option value="he bei" selected>河北</option>
+						<option value="shan dong">山东</option>
+						<option value="he nan">河南</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>证件类型：</td>
+				<td>
+						
+					<select>
+						<option value="身份证" selected>身份证</option>
+						<option value="学生证">学生证</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>证件号：</td>
+				<td>
+					<input type="text" name="zheng jian hao">
+				</td>
+			</tr>
+			<tr>
+				<td>爱好：</td>
+				<td>
+					<input type="checkbox" value="音乐" name="hobby"/>音乐
+					<input type="checkbox" value="读书" name="hobby" checked/>读书
+					<input type="checkbox" value="跳舞" name="hobby" checked/>跳舞
+					<input type="checkbox" value="游戏" name="hobby"/>游戏
+					<input type="checkbox" value="其他" name="hobby"/>其他
+				</td>
+			</tr>
+			<tr>
+				<td >个人简介：</td>
+				<td >
+					<textarea name="个人简介" rows="5" cols="30"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>上传头像</td>
+				<td>
+					<input type="file" name="files"/>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center" bgcolor=#E7E7E>
+					<input type="submit" value="提交" name="sub"/>
+					<input type="reset" value="重置" name="res"/>
+					<input type="button" value="按钮" name="but"/>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

@@ -1,0 +1,58 @@
+/*
+* @Author: Administrator·杨振贺
+* @Date:   2019-05-27 09:45:34
+* @Last Modified by:   Administrator·杨振贺
+* @Last Modified time: 2019-05-27 10:50:00
+*/
+*{
+	padding:0;
+	margin:0;
+}
+ul,li,ol{
+	list-style:none ;
+}
+a{
+	text-decoration:none;
+}
+.box{
+	width:1200px;
+	margin:0 auto;
+	height:616px;
+	background-color: #fff;
+}
+.right{
+	width:964px;
+	height:616px;
+	/* background-color:red; */
+	float:left;
+}
+.right li{
+	width:227px;
+	height:300px;
+	border:1px solid #000;
+	float: left;
+	text-align:center;
+	margin-left: 12px;
+	margin-bottom:12px ;
+	position:relative;
+}
+.right li img{
+	margin:55px 0 35px 0;
+}
+.hide{
+	width:227px;
+	height:76px;
+	text-align:center;
+	line-height:76px;
+	background-color: #ff6700;
+	display:none;
+	position:absolute;
+	bottom:0;
+}
+.right li:hover .hide{
+	display:block;
+}
+.left{
+	float:left;
+	width:236px;
+}

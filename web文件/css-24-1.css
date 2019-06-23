@@ -1,0 +1,76 @@
+/* 将列表的默认去掉 */
+*
+{
+	padding:0;
+	margin:0;
+}
+.left
+{
+	border-style:solid;
+	background-color:#fff;
+	height:400px;
+	width:380px;
+	float:left;
+	margin:5px;
+}
+.right
+{
+	border-style:solid;
+	background-color:#f8f;
+	height:400px;
+	width:180px;
+	margin:5px;
+	float:right;
+}
+.da
+{
+
+	height:420px;
+	width:700px;
+	border-style:solid;
+	background-color:#f0f;
+	padding:50px;
+	margin:50px;
+
+
+}
+.l
+{
+	height:120px;
+	width:170px;
+	background-color:#8fc;
+	float:left;
+	margin:10px;
+}
+.r
+{
+	height:90px;
+	width:150px;
+	background:#8cf;
+	margin:10px;
+}
+ul
+{
+	list-style:none;
+}
+ul:after
+{
+	clear:both;
+}
+.banner
+{
+	height
+	width:1200px;
+	margin:50px auto; 
+}
+.txt
+{
+	position:absolute;
+
+}
+h3
+{
+	padding:0;
+	border-bottom:2px solid red;
+	margin:0;
+}
