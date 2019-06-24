@@ -1,0 +1,124 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+</html> -->
+<!DOCTYPE html>
+<head >
+	<meta charset="UTF-8">
+	<title>考试复习</title>	
+</head>
+<body text="#000" bgcolor="#fff" style="height:10000px;">
+	<!-- text标记文档的文本的颜色，bgcolor标记文档的背景颜色 -->
+	<div>
+		<h2>ppt 02</h2><!-- 二级标题 -->
+		<!-- 在浏览器中，标题独占一行 -->
+		<p>标题、段落、图片、超链接、列表（有、无序）</p><!-- 段落 -->
+		<!-- 独占一行 -->
+		<img src="http://www.a.com/image/a.png
+" alt=""/>
+<!-- src指明图片的路径，alt为图片添加替换文本 -->
+		<a href="#" target="_blank"><!-- href：必选属性，规定链接目标；target：在何处打开 -->_blank<!-- ：在新窗口打开 --></a>
+		<a href="#" target="_self"><!-- href：必选属性，规定链接目标；target：在何处打开 -->_self<!-- ：在当前窗口打开（默认） --></a>
+		<a href = "http://www.baidu.com/"  target = "_blank">
+			<!-- 图片做链接 -->
+	      <img src ="image/任务04用图.jpg"  alt = "baidu logo" />
+	  	</a>
+	  	<ul><!-- 无序列表 <-->
+	  		<li>默认用粗圆点标记</li>
+	  	</ul>
+	  	<ol><!-- 有序列表 <-->
+	  		<li>默认用数字标记</li>
+	  		<li>编码规范：</li>
+	  		<li>所有标签必须关闭</li>
+	  		<li>所有标签及其属性的名字都必须使用小写</li>
+	  		<li>所有标签必须合理嵌套</li>
+	  		<li>所有属性必须赋值，所有的属性值必须用引号括起来</li>
+	  	</ol>
+	</div>
+	<div>
+		<h2>ppt 03</h2>
+		<p>表格、表单</p>
+		<table border="1px" background="" bordercolor="#000" bgcolor="#fff" cellpadding="5px" cellspacing="0px" width="1000px" height="500px" align="left">
+			<tr>
+				<th colspan="2">表格属性 </th>
+				<!-- <th></th> -->
+				<th>colspan</th>
+			</tr>
+			<tr>
+				<td>border</td>
+				<td width="600px">表格边框的宽度</td>
+				<td rowspan="2"><h3>rowspan</h3></td>
+			</tr>
+			<tr>
+				<td>bordercolor</td>
+				<td width="600px">表格边框的颜色</td>
+				<!-- <td></td> -->
+			</tr>
+			<tr>
+				<td>background</td>
+				<td width="600px">表格背景图</td>
+				<td>会掩盖掉背景色</td>
+			</tr>
+			<tr>
+				<td>bgcolor</td>
+				<td width="600px">表格背景色</td>
+				<td></td>
+			</tr>
+			<tr bgcolor="#aaa">
+				<td>cellpadding</td>
+				<td width="600px">单元格边沿与其内容之间的距离</td>
+				<td></td>
+			</tr>
+			<tr bgcolor="#ccc">
+				<td>cellspacing</td>
+				<td width="600px">单元格之间的空白</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>width</td>
+				<td width="600px">规定表格元素的宽度（px/%）</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>height</td>
+				<td width="600px">规定表格元素的高度（px/%）</td>
+				<td></td>
+			</tr>
+			<tr bgcolor="#8c8">
+				<td>colspan</td>
+				<td width="600px">合并同一行、不同列的单元格</td>
+				<td></td>
+			</tr>
+			<tr bgcolor="#8c8">
+				<td>rowspan</td>
+				<td width="600px">合并不同行、同一列的单元格</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>align</td>
+				<td width="600px">表格的对齐方式（left center right）</td>
+				<td></td>
+			</tr>
+		</table>
+		<p>表单是一个包含表单元素的区域。表单元素是允许用户在表单中输入信息的元素（比如：文本框、下拉列表、单选框、复选框等）</p>
+		<p>其作用是从访问网站的用户那里获得信息，是用户向服务器传输数据的接口。</p>
+		<form action="#" method="post"><!-- 表单必写，所有表单控件都必须放在该标签里，否则用户输入的信息无法提交到服务器 -->
+		<!-- action：规定了向何处提交信息（URL） -->
+		<!-- method：规定以何种方式将信息传送到服务器（get/post常用） -->
+			<input type="text" name="name" value="输入框">
+			<!-- type:类型，type="text"是输入框为文本框 -->
+			<!-- name：为输入框命名 -->
+			<!-- value：为输入框设置默认值（起提醒作用） -->
+			<input type="password" name="password" value="密码框">
+			
+		</form>
+	</div>
+
+</body>
+
